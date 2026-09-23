@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Esqueci minha senha</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <form id="recuperarForm">
+
+            <h1>Recuperar senha</h1>
+
+            <div class="input-box">
+                <input
+                    id="usuario"
+                    placeholder="E-mail cadastrado"
+                    type="email"
+                    required
+                >
+
+                <i class="bx bxs-envelope"></i>
+            </div>
+
+            <div class="input-box">
+                <input
+                    id="novaSenha"
+                    placeholder="Nova senha"
+                    type="password"
+                    required
+                >
+
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="input-box">
+                <input
+                    id="confirmarNovaSenha"
+                    placeholder="Confirmar nova senha"
+                    type="password"
+                    required
+                >
+
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <button type="submit" class="login">
+                Redefinir senha
+            </button>
+
+            <div class="register-link">
+
+                <p>
+                    Lembrou a senha?
+                    <a href="index.html">
+                        Voltar ao login
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+
+    </main>
+
+    <script src="esqueci-senha.js"></script>
+
+</body>
+
+</html>
